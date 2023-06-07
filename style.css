@@ -279,7 +279,7 @@ padding-top: 32px;
    .littlecircle{
     display: block;
     position: relative;
-    left: 45%;
+    
     bottom: 10%;
    }
    .logoAndApply{
@@ -405,9 +405,10 @@ section{width: 770px;
 
     .littlecircle{
         display: block;
-        position: relative;
-        left: 48%;
-        bottom: 20%;}
+        display: flex;
+        justify-content: end;
+        
+    }
 
    }
    
